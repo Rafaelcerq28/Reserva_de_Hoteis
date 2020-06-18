@@ -1,4 +1,4 @@
-<h2>Análise das reservas de Hotel</h2><hr>
+<h2>Análise das reservas de Hotel</h2>
 
 Análise exploratória dos dados <strong>Hotel booking demand</strong> disponível no <a href="https://www.kaggle.com/jessemostipak/hotel-booking-demand" target="_blank">Kaggle</a>
 
