@@ -1,0 +1,66 @@
+﻿# Colunas
+
+#### hotel
+- Hotel (H1 = Resort ou H2 = Hotel na cidade)
+#### is_canceled
+- Valor indicando se a reserva foi cancelada (1) ou não (0)
+#### lead_time
+- Número de dias decorridos entre a data de entrada da reserva no PMS e a data de chegada
+#### arrival_date_year
+- Ano da data de chegada
+#### arrival_date_month
+- Mês da data de chegada
+#### arrival_date_week_number
+- Número da semana do ano para a data de chegada
+#### arrival_date_day_of_month
+- dia da data de chegada
+#### stay_in_weekend_nights
+- Número de noites de fim de semana (sábado ou domingo) em que o hóspede ficou ou reservou para ficar no hotel
+#### stay_in_week_nights
+- Número de noites da semana (de segunda a sexta-feira) em que o hóspede ficou ou reservou para ficar no hotel
+#### adults
+- Número de Adultos
+#### children
+- número de filhos
+#### babies
+- Número de bebês
+#### meal
+- Tipo de refeição reservada. As categorias são apresentadas em pacotes padrão de refeições de hospitalidade: Indefinido / SC - sem pacote de refeições; BB - Alojamento e café da manhã; HB - Meia pensão (café da manhã e outra refeição - geralmente jantar); FB - Pensão completa (café da manhã, almoço e jantar)
+#### country
+- País de origem. As categorias são representadas no formato ISO 3155–3: 2013
+#### market_segment
+- Designação do segmento de mercado. Nas categorias, o termo "TA" significa "agentes de viagens" e "TO" significa "operadores turísticos"
+#### distribution_channel
+- Canal de distribuição de reservas. O termo "TA" significa "agentes de viagens" e "TO" significa "operadores turísticos"
+#### is_repeated_guest
+- Valor indicando se o nome da reserva era de um hóspede repetido (1) ou não (0)
+#### previous_cancellations
+- Número de reservas anteriores que foram canceladas pelo cliente antes da reserva atual
+#### previous_bookings_not_canceled
+- Número de reservas anteriores não canceladas pelo cliente antes da reserva atual
+#### Reserved_room_type
+- Código do tipo de quarto reservado. O código é apresentado em vez da designação por razões de anonimato.
+#### assign_room_type
+- Código para o tipo de quarto atribuído à reserva. Às vezes, o tipo de quarto atribuído difere do tipo de quarto reservado devido a razões de operação do hotel (por exemplo, reservas em excesso) ou por solicitação do cliente. O código é apresentado em vez da designação por razões de anonimato.
+#### booking_changes
+- Número de alterações / alterações feitas na reserva desde o momento em que a reserva foi inserida no PMS até o momento do check-in ou cancelamento
+#### deposit_type
+- Indicação se o cliente fez um depósito para garantir a reserva. Essa variável pode assumir três categorias: Nenhum depósito - nenhum depósito foi feito; Não reembolso - foi feito um depósito no valor do custo total da estadia; Reembolsável - foi feito um depósito com um valor abaixo do custo total da estadia.
+#### agent
+- ID da agência de viagens que fez a reserva
+#### company
+- ID da empresa / entidade que fez a reserva ou responsável pelo pagamento da reserva. O ID é apresentado em vez da designação por razões de anonimato
+#### days_in_waiting_list
+- Número de dias em que a reserva estava na lista de espera antes de ser confirmada ao cliente
+#### customer_type
+- Tipo de reserva, assumindo uma das quatro categorias: Contract - quando a reserva possui uma atribuição ou outro tipo de contrato associado a ela; Group - quando a reserva está associada a um grupo; Transient - quando a reserva não faz parte de um grupo ou contrato e não está associado a outra reserva transitória; Transient-party - quando a reserva é transitória, mas está associada a pelo menos outra reserva transitória
+#### adr
+- Taxa diária média, conforme definida pela divisão da soma de todas as transações de hospedagem pelo número total de noites de permanência
+#### required_car_parking_spaces
+- Número de vagas de estacionamento exigidas pelo cliente
+#### total_of_special_requests
+- Número de pedidos especiais feitos pelo cliente (por exemplo, cama de solteiro ou andar alto)
+#### reservation_status
+- Último status da reserva, assumindo uma de três categorias: Cancelado - a reserva foi cancelada pelo cliente; Check-Out - o cliente fez o check-in, mas já partiu; No-Show - o cliente não fez o check-in e informou o hotel do motivo
+#### reservation_status_date
+- Data em que o último status foi definido. Essa variável pode ser usada em conjunto com o ReservationStatus para entender quando a reserva foi cancelada ou quando o cliente fez o check-out do hotel.
